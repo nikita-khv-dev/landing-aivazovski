@@ -6,10 +6,27 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 970px;
+  padding: 0 10px;
 }

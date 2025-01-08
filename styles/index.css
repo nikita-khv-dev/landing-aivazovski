@@ -1,3 +1,8 @@
+/* BASE */
 @import url("./base/variables.css");
 @import url("./base/fonts.css");
 @import url("./base/base.css");
+
+/* COMPONENTS */
+@import url("./components/header.css");
+@import url("./components/menu.css");
