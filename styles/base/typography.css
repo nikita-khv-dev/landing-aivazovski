@@ -1,0 +1,19 @@
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
