@@ -41,6 +41,10 @@ ul {
 }
 
 @media (max-width: 480px) {
+	.container {
+		padding: 0 30px;
+	}
+
 	.divider {
 		max-width: 300px;
 	}
