@@ -11,7 +11,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="menu">
+        <nav class="menu" aria-label="base menu">
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#" class="menu__link">Home</a>
@@ -123,5 +123,55 @@
         </div>
       </section>
     </main>
+
+    <footer class="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Contacts</h2>
+
+        <a href="http://aivazovski.ru/"
+          class="btn-link contacts__btn" target="_blank"
+          aria-label="open to site aivazovski">ayvazovskiy.su</a>
+
+        <address class="social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="https://www.youtube.com" class="social__link"
+                target="_blank" aria-label="open youtube">
+                <svg class="social__icon">
+                  <use href="./assets/icons/sprite.svg#youtube-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.linkedin.com" class="social__link"
+                target="_blank" aria-label="open linkedin">
+                <svg class="social__icon">
+                  <use href="./assets/icons/sprite.svg#linkedin-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.instagram.com" class="social__link"
+                target="_blank" aria-label="open instagram">
+                <svg class="social__icon">
+                  <use href="./assets/icons/sprite.svg#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.facebook.com" class="social__link"
+                target="_blank" aria-label="open facebook">
+                <svg class="social__icon">
+                  <use href="./assets/icons/sprite.svg#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+
+        <p class="contacts__info">More works you can see in these social
+          networks</p>
+      </div>
+    </footer>
   </body>
 </html>

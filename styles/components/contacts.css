@@ -1,0 +1,40 @@
+.contacts {
+	padding: 55px 0 63px;
+	text-align: center;
+}
+
+.contacts__title {
+	margin: 0 0 75px 0;
+}
+
+.contacts__btn {
+	display: inline-block;
+	margin: 0 0 75px 0;
+}
+
+.contacts__info {
+	display: inline-block;
+	margin: 34px 0 0 0;
+	font-size: 16px;
+	color: var(--color-text);
+	max-width: 261px;
+}
+
+@media (max-width: 480px) {
+	.contacts {
+		padding: 60px 0 125px;
+	}
+
+	.contacts__title {
+		margin: 0 0 80px 0;
+	}
+
+	.contacts__btn {
+		margin: 0 0 40px 0;
+	}
+
+	.contacts__info {
+		margin: 42px 0 0 0;
+		font-size: 14px;
+	}
+}
